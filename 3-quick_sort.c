@@ -1,7 +1,5 @@
 #include "sort.h"
 
-#include "sort.h"
-
 /**
  * swap - Swap two integers in an array.
  * @a: The first integer to swap.

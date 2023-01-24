@@ -38,8 +38,5 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 
-void lumuto_sort(int *array, size_t size, int lower_index, int upper_index);
-int lumoto_partition(int *array, size_t size, int lower_index, int upper_index);
-
 
 #endif

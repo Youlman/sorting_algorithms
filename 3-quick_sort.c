@@ -1,7 +1,6 @@
 #include "sort.h"
 
-
-void swap_ints(int *a, int *b);
+void swap(int *a, int *b);
 int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int left, int right);
 void quick_sort(int *array, size_t size);
@@ -19,7 +18,6 @@ void swap(int *a, int *b)
 	*a = *b;
 	*b = tmp;
 }
-
 
 /**
  * lomuto_partition - Order a subset of an array of integers according to
@@ -56,7 +54,6 @@ int lomuto_partition(int *array, size_t size, int lower_index, int upper_index)
 	}
 	return (index);
 }
-
 
 /**
  * lomuto_sort - Implement the quicksort algorithm through recursion.
